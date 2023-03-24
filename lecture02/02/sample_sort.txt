@@ -1,0 +1,7 @@
+0,Taro
+1,Jiro
+2,Hanako
+9,saburo
+ 7,yoshiko
+1,Shiro
+10,Ichiro

@@ -1,0 +1,20 @@
+1	apple
+2	lemon
+3	grage
+
+# expand
+1           apple
+2           lemon
+3           grage
+
+# unexpand
+1	apple
+2	lemon
+3	grage
+
+# expand
+1	    apple
+2	    lemon
+3	    grage
+
+# unexpand

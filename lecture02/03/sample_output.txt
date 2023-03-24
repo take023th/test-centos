@@ -1,0 +1,2 @@
+Hello World
+./sample.sh: 行 5: ech: コマンドが見つかりません

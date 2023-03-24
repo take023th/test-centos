@@ -1,0 +1,21 @@
+tar -cf file.tar > tar形式
+
+# -cは圧縮
+tar -czf filr.tar.gz file1 file2 file3 # gzip形式
+tar -cjf file.tar.bz2 file1 file2 file3 # bzip2形式
+tar -cJf file.tar.xz file1 file2 fil # xz形式
+
+# -xは解凍
+tar -xzf filr.tar.gz file1 file2 file3
+tar -xjf file.tar.bz2 file1 file2 file3
+tar -xJf file.tar.xz file1 file2 fil
+
+# 圧縮
+gzip file1 # file1.gzが生成される
+bzip2 file1 # file1.bz2が生成される
+xz file1 # file1.xzが生成される
+
+# 解凍
+gunzip file1.gz or gzip -d file1.gz
+bzip2 -d file1.bz2
+xz -d file1.xz

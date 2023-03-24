@@ -1,0 +1,7 @@
+history 10
+history -d 206
+history
+history -a showtest2
+cat shotest2
+cat showtest2f
+history -a showtest2
